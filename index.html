@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jotham Aaron Puracan | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">PORTFOLIO</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 1. HOME (black) -->
+  <section id="home" class="dark hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <p class="eyebrow">Hello, I’m</p>
+        <h1>Jotham Aaron Puracan</h1>
+        <p class="lead">I’m a creative and curious student who loves learning, building things, and sharing ideas. Welcome to my portfolio!</p>
+        <a href="#projects" class="btn btn-light">View My Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="photo reveal">
+        <span class="photo-label">Add images/profile.jpg</span>
+        <img src="images/profile.jpg" alt="Profile picture">
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT (white) -->
+  <section id="about" class="light">
+    <div class="container">
+      <h2 class="reveal">About Me</h2>
+      <div class="two-col">
+        <div class="reveal">
+          <p>I’m a Computer Science student at Bohol Island State University. I’m from Alicia, Bohol and I enjoy learning new things every day.
+             My goal is to know alot of things about my course and to help others along the way.</p>
+          <p>Outside of school, I love spending time on my hobbies and exploring new ideas.</p>
+        </div>
+        <div class="reveal">
+          <h3>Hobbies &amp; Interests</h3>
+          <ul class="tags">
+            <li>Reading</li>
+            <li>Drawing</li>
+            <li>Music</li>
+            <li>Photography</li>
+            <li>Sports</li>
+            <li>Technology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SKILLS (black) -->
+  <section id="skills" class="dark">
+    <div class="container">
+      <h2 class="reveal">Skills</h2>
+      <div class="cards">
+        <div class="card reveal"><span class="icon">01</span><h3>Communication</h3><p>Clear speaking and writing.</p></div>
+        <div class="card reveal"><span class="icon">02</span><h3>Creativity</h3><p>Fresh ideas and design thinking.</p></div>
+        <div class="card reveal"><span class="icon">03</span><h3>Problem Solving</h3><p>Breaking big problems into steps.</p></div>
+        <div class="card reveal"><span class="icon">04</span><h3>Teamwork</h3><p>Working well with others.</p></div>
+        <div class="card reveal"><span class="icon">05</span><h3>HTML &amp; CSS</h3><p>Building clean web pages.</p></div>
+        <div class="card reveal"><span class="icon">06</span><h3>Time Management</h3><p>Staying organized and on track.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PROJECTS (white) -->
+  <section id="projects" class="light">
+    <div class="container">
+      <h2 class="reveal">Projects</h2>
+      <div class="cards three">
+        <article class="card project reveal">
+          <div class="thumb"><span>Add images/project1.jpg</span><img src="images/project1.jpg" alt="Project One"></div>
+          <div class="card-body"><h3>Project One</h3><p>none</p></div>
+<!-- A short description of this project and what you learned from it. -->
+        </article>
+        <article class="card project reveal">
+          <div class="thumb"><span>Add images/project2.jpg</span><img src="images/project2.jpg" alt="Project Two"></div>
+          <div class="card-body"><h3>Project Two</h3><p>none</p></div>
+<!-- Explain the goal of this project and your role in it -->
+        </article>
+        <article class="card project reveal">
+          <div class="thumb"><span>Add images/project3.jpg</span><img src="images/project3.jpg" alt="Project Three"></div>
+          <div class="card-body"><h3>Project Three</h3><p>none</p></div>
+<!-- Describe the result and what you are proud of. -->
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CONTACT (black) -->
+  <section id="contact" class="dark">
+    <div class="container center">
+      <h2 class="reveal">Let’s Connect</h2>
+      <p class="reveal">Have a question or just want to say hi? Send me a message.</p>
+      <a class="btn btn-light reveal" href="mailto:Jothamaaron.puracan@bisu.edu.ph">Jothamaaron.puracan@bisu.edu.ph</a>
+      <div class="socials reveal">
+        <a href="https://www.facebook.com/share/1eSmnXjqY4/" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Jotham. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
